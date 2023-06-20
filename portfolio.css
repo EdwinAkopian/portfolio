@@ -1,0 +1,51 @@
+/* portfolio.css */
+body {
+  background-color: black;
+  font-family: Arial;
+  color: white;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+  filter: brightness(50%);
+}
+
+nav,
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  flex-basis: auto;
+  flex-wrap: wrap;
+}
+
+header nav {
+  justify-content: left;
+}
+
+header nav ul {
+  gap: 256px;
+}
+
+footer nav {
+  justify-content: right;
+}
+
+footer nav ul {
+  gap: 128px;
+}
+
+.miniature {
+  transition: all 1s;
+}
+
+a:holder {
+  filter: brightness(50%);
+}
